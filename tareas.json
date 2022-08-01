@@ -1,0 +1,32 @@
+[
+ {
+  "codigo": 1,
+  "titulo": "Arreglar menu principal",
+  "estado": "Terminada"
+ },
+ {
+  "codigo": 2,
+  "titulo": "Crear una funcion para sumar numeros",
+  "estado": "En progreso"
+ },
+ {
+  "codigo": 3,
+  "titulo": "Crear una funcion para restar numeros",
+  "estado": "Terminada"
+ },
+ {
+  "codigo": 5,
+  "titulo": "Crear clase Vehiculo",
+  "estado": "En progreso"
+ },
+ {
+  "codigo": 6,
+  "titulo": "Verificar llamada entrante",
+  "estado": "En progreso"
+ },
+ {
+  "codigo": 7,
+  "titulo": "Verificar llamada saliente",
+  "estado": "En progreso"
+ }
+]

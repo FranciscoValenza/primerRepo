@@ -8,7 +8,7 @@ function listarTareas(estructuraTareas){
 
 function guardarTarea(estructuraTareas,nuevaTarea){
     estructuraTareas.push(nuevaTarea);
-    fs.writeFileSync('./servicios/tareas.json',JSON.stringify(estructuraTareas,null," "));
+    fs.writeFileSync('./tareas.json',JSON.stringify(estructuraTareas,null," "));
 }
 
 function borrarTarea(estructuraTareas,codigoBusqueda){
@@ -16,7 +16,7 @@ function borrarTarea(estructuraTareas,codigoBusqueda){
         return elemento.codigo!=codigoBusqueda;
     });
 
-    fs.writeFileSync('./servicios/tareas.json',JSON.stringify(nuevaEstructuraTareas,null," "));
+    fs.writeFileSync('./tareas.json',JSON.stringify(nuevaEstructuraTareas,null," "));
 
     return nuevaEstructuraTareas;
 }

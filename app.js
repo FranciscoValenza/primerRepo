@@ -2,7 +2,7 @@ let fs = require('fs');  // importo libreria para leer archivos de texto
 const { listenerCount } = require('process');
 let {listarTareas, guardarTarea, borrarTarea, filtrarTarea} = require('./funcionesDeTareas');
 
-let obj_json = fs.readFileSync('./servicios/tareas.json');  // Leo el archivo con o sin 'utf-8'
+let obj_json = fs.readFileSync('./tareas.json');  // Leo el archivo con o sin 'utf-8'
 let obj_literal = JSON.parse(obj_json);  // convierto el archivo
 
 
@@ -22,3 +22,4 @@ listarTareas(obj_literal);
 
 listarTareas(tareasFiltradas);
 
+console.log(listarTareas(tareasFiltradas))
